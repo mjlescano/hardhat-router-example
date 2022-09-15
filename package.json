@@ -1,0 +1,28 @@
+{
+  "name": "hardhat-router-example",
+  "version": "0.0.0",
+  "description": "Minimal @synthetixio/hardhat-router example",
+  "main": "hardhat.config.ts",
+  "scripts": {
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjlescano/hardhat-router-example.git"
+  },
+  "author": "@mjlescano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjlescano/hardhat-router-example/issues"
+  },
+  "homepage": "https://github.com/mjlescano/hardhat-router-example#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "2.1.1",
+    "@synthetixio/core-contracts": "1.1.0",
+    "@synthetixio/core-modules": "1.0.0",
+    "@synthetixio/hardhat-router": "1.0.5",
+    "hardhat": "2.11.2",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.3"
+  }
+}
